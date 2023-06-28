@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: ooghenekaro/argo-rollout:latest
+          image: ooghenekaro/argo-rollout-bluegreen:latest
           ports:
             - name: http
               containerPort: 3000
