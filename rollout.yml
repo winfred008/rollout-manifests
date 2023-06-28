@@ -2,8 +2,6 @@ apiVersion: argoproj.io/v1alpha1
 kind: Rollout
 metadata:
   name: rollout-deployment
-  labels:
-    app: rollout-app
 spec:
   replicas: 3
   selector:
