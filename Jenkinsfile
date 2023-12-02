@@ -1,7 +1,7 @@
 node {
     def app
     
-    env.IMAGE = 'ooghenekaro/argo-rollout-bluegreen'
+    env.IMAGE = 'ooghenekaro/bluegreen-rollout-oct'
 
     stage('Clone repository') {
              git branch: 'main', url: 'https://github.com/ooghenekaro/rollout-manifests.git'  
