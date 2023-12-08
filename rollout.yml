@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: rollout-container
-          image: laly9999/bluegreen-rollout:1
+          image: laly9999/bluegreen-rollout:2
           ports:
             - name: http
               containerPort: 3000
